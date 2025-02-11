@@ -1,14 +1,14 @@
 //
-//  mapstestApp.swift
-//  mapstest
+//  ParamapsApp.swift
+//  Paramaps
 //
-//  Created by Miha Štih on 4. 1. 25.
+//  Created by Miha Štih on 8. 1. 25.
 //
 
 import SwiftUI
 
 @main
-struct mapstestApp: App {
+struct ParamapsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

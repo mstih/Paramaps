@@ -24,25 +24,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C55A3692D29AB1100170A65 /* mapstest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapstest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C55A3792D29AB1200170A65 /* mapstestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapstestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C55A3832D29AB1200170A65 /* mapstestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapstestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C55A3692D29AB1100170A65 /* Paramaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paramaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C55A3792D29AB1200170A65 /* ParamapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParamapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C55A3832D29AB1200170A65 /* ParamapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParamapsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		2C55A36B2D29AB1100170A65 /* mapstest */ = {
+		2C55A36B2D29AB1100170A65 /* Paramaps */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = mapstest;
+			path = Paramaps;
 			sourceTree = "<group>";
 		};
-		2C55A37C2D29AB1200170A65 /* mapstestTests */ = {
+		2C55A37C2D29AB1200170A65 /* ParamapsTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = mapstestTests;
+			path = ParamapsTests;
 			sourceTree = "<group>";
 		};
-		2C55A3862D29AB1200170A65 /* mapstestUITests */ = {
+		2C55A3862D29AB1200170A65 /* ParamapsUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = mapstestUITests;
+			path = ParamapsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		2C55A3602D29AB1100170A65 = {
 			isa = PBXGroup;
 			children = (
-				2C55A36B2D29AB1100170A65 /* mapstest */,
-				2C55A37C2D29AB1200170A65 /* mapstestTests */,
-				2C55A3862D29AB1200170A65 /* mapstestUITests */,
+				2C55A36B2D29AB1100170A65 /* Paramaps */,
+				2C55A37C2D29AB1200170A65 /* ParamapsTests */,
+				2C55A3862D29AB1200170A65 /* ParamapsUITests */,
 				2C55A36A2D29AB1100170A65 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		2C55A36A2D29AB1100170A65 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C55A3692D29AB1100170A65 /* mapstest.app */,
-				2C55A3792D29AB1200170A65 /* mapstestTests.xctest */,
-				2C55A3832D29AB1200170A65 /* mapstestUITests.xctest */,
+				2C55A3692D29AB1100170A65 /* Paramaps.app */,
+				2C55A3792D29AB1200170A65 /* ParamapsTests.xctest */,
+				2C55A3832D29AB1200170A65 /* ParamapsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C55A3682D29AB1100170A65 /* mapstest */ = {
+		2C55A3682D29AB1100170A65 /* Paramaps */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C55A38D2D29AB1200170A65 /* Build configuration list for PBXNativeTarget "mapstest" */;
+			buildConfigurationList = 2C55A38D2D29AB1200170A65 /* Build configuration list for PBXNativeTarget "Paramaps" */;
 			buildPhases = (
 				2C55A3652D29AB1100170A65 /* Sources */,
 				2C55A3662D29AB1100170A65 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				2C55A36B2D29AB1100170A65 /* mapstest */,
+				2C55A36B2D29AB1100170A65 /* Paramaps */,
 			);
-			name = mapstest;
+			name = Paramaps;
 			packageProductDependencies = (
 			);
 			productName = mapstest;
-			productReference = 2C55A3692D29AB1100170A65 /* mapstest.app */;
+			productReference = 2C55A3692D29AB1100170A65 /* Paramaps.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2C55A3782D29AB1200170A65 /* mapstestTests */ = {
+		2C55A3782D29AB1200170A65 /* ParamapsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C55A3902D29AB1200170A65 /* Build configuration list for PBXNativeTarget "mapstestTests" */;
+			buildConfigurationList = 2C55A3902D29AB1200170A65 /* Build configuration list for PBXNativeTarget "ParamapsTests" */;
 			buildPhases = (
 				2C55A3752D29AB1200170A65 /* Sources */,
 				2C55A3762D29AB1200170A65 /* Frameworks */,
@@ -131,18 +131,18 @@
 				2C55A37B2D29AB1200170A65 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				2C55A37C2D29AB1200170A65 /* mapstestTests */,
+				2C55A37C2D29AB1200170A65 /* ParamapsTests */,
 			);
-			name = mapstestTests;
+			name = ParamapsTests;
 			packageProductDependencies = (
 			);
 			productName = mapstestTests;
-			productReference = 2C55A3792D29AB1200170A65 /* mapstestTests.xctest */;
+			productReference = 2C55A3792D29AB1200170A65 /* ParamapsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2C55A3822D29AB1200170A65 /* mapstestUITests */ = {
+		2C55A3822D29AB1200170A65 /* ParamapsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C55A3932D29AB1200170A65 /* Build configuration list for PBXNativeTarget "mapstestUITests" */;
+			buildConfigurationList = 2C55A3932D29AB1200170A65 /* Build configuration list for PBXNativeTarget "ParamapsUITests" */;
 			buildPhases = (
 				2C55A37F2D29AB1200170A65 /* Sources */,
 				2C55A3802D29AB1200170A65 /* Frameworks */,
@@ -154,13 +154,13 @@
 				2C55A3852D29AB1200170A65 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				2C55A3862D29AB1200170A65 /* mapstestUITests */,
+				2C55A3862D29AB1200170A65 /* ParamapsUITests */,
 			);
-			name = mapstestUITests;
+			name = ParamapsUITests;
 			packageProductDependencies = (
 			);
 			productName = mapstestUITests;
-			productReference = 2C55A3832D29AB1200170A65 /* mapstestUITests.xctest */;
+			productReference = 2C55A3832D29AB1200170A65 /* ParamapsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2C55A3642D29AB1100170A65 /* Build configuration list for PBXProject "mapstest" */;
+			buildConfigurationList = 2C55A3642D29AB1100170A65 /* Build configuration list for PBXProject "Paramaps" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C55A3682D29AB1100170A65 /* mapstest */,
-				2C55A3782D29AB1200170A65 /* mapstestTests */,
-				2C55A3822D29AB1200170A65 /* mapstestUITests */,
+				2C55A3682D29AB1100170A65 /* Paramaps */,
+				2C55A3782D29AB1200170A65 /* ParamapsTests */,
+				2C55A3822D29AB1200170A65 /* ParamapsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		2C55A37B2D29AB1200170A65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2C55A3682D29AB1100170A65 /* mapstest */;
+			target = 2C55A3682D29AB1100170A65 /* Paramaps */;
 			targetProxy = 2C55A37A2D29AB1200170A65 /* PBXContainerItemProxy */;
 		};
 		2C55A3852D29AB1200170A65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2C55A3682D29AB1100170A65 /* mapstest */;
+			target = 2C55A3682D29AB1100170A65 /* Paramaps */;
 			targetProxy = 2C55A3842D29AB1200170A65 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -392,25 +392,34 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"mapstest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Paramaps/Preview Content\"";
 				DEVELOPMENT_TEAM = 88AZ9FUUW2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ParaMaps;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow the camera access";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to improve your experience.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.mihastih.mapstest;
+				PRODUCT_BUNDLE_IDENTIFIER = io.mihastih.paramaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -422,24 +431,32 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"mapstest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Paramaps/Preview Content\"";
 				DEVELOPMENT_TEAM = 88AZ9FUUW2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ParaMaps;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow the camera access";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to improve your experience.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.mihastih.mapstest;
+				PRODUCT_BUNDLE_IDENTIFIER = io.mihastih.paramaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,7 +478,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mapstest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mapstest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paramaps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Paramaps";
 			};
 			name = Debug;
 		};
@@ -480,7 +497,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mapstest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mapstest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paramaps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Paramaps";
 			};
 			name = Release;
 		};
@@ -521,7 +538,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C55A3642D29AB1100170A65 /* Build configuration list for PBXProject "mapstest" */ = {
+		2C55A3642D29AB1100170A65 /* Build configuration list for PBXProject "Paramaps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C55A38B2D29AB1200170A65 /* Debug */,
@@ -530,7 +547,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C55A38D2D29AB1200170A65 /* Build configuration list for PBXNativeTarget "mapstest" */ = {
+		2C55A38D2D29AB1200170A65 /* Build configuration list for PBXNativeTarget "Paramaps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C55A38E2D29AB1200170A65 /* Debug */,
@@ -539,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C55A3902D29AB1200170A65 /* Build configuration list for PBXNativeTarget "mapstestTests" */ = {
+		2C55A3902D29AB1200170A65 /* Build configuration list for PBXNativeTarget "ParamapsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C55A3912D29AB1200170A65 /* Debug */,
@@ -548,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C55A3932D29AB1200170A65 /* Build configuration list for PBXNativeTarget "mapstestUITests" */ = {
+		2C55A3932D29AB1200170A65 /* Build configuration list for PBXNativeTarget "ParamapsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C55A3942D29AB1200170A65 /* Debug */,
