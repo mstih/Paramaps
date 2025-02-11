@@ -1,10 +1,13 @@
 # Paramaps
 
-Paramaps is an iOS app that delivers better maps for people with disabilities, including search, directions, annotation of obstacles, and an ability to report new obstacles. 
+THIS IS A HIGH-FIDELITY PROTOTYPE FOR HUMAN-COMPUTER INTERRACTION COURSE (UP FAMNIT)
+
+Paramaps is an iOS app that delivers better maps for people with disabilities, including search, directions, annotation of obstacles, and an ability to report new obstacles.
 
 The app is built with two external Apple libraries, MapKit and CoreLocation.
 
 ## Features
+
 - **Obstacle Annotations**: Stairs and other obstacles are marked on a map.
 - **Search Functionality**: Ability to search locations.
 - **Route Directions**: Calculate and show path on a map.
@@ -23,17 +26,17 @@ The app is built with two external Apple libraries, MapKit and CoreLocation.
 1. Download the zip folder.
 2. Extract the zip folder and navigate to it.
 3. Open the project in Xcode
-3. Build and run the project on a simulator or device. (For better experience we recommend building it on a device.)
+4. Build and run the project on a simulator or device. (For better experience we recommend building it on a device.)
 
 ## Usage
 
-To see all the features in action, you can check the tutorial video by clicking on this link: https://youtu.be/mQ4_iTykMWE  
+To see all the features in action, you can check the tutorial video by clicking on this link: https://youtu.be/mQ4_iTykMWE
 
 ### Search Locations
 
 1. Input a location in the search bar at the top of the screen.
 2. Tap a suggestion to show it on a map.
-3. The location of the searched place is now displayed as a placemark on a map. 
+3. The location of the searched place is now displayed as a placemark on a map.
 
 ### Get Route
 
@@ -42,7 +45,7 @@ To see all the features in action, you can check the tutorial video by clicking 
 
 ### Obstacle Annotations
 
-- Yellow triangle marks on the map show the location of the obstacles and by clicking on it, you are presented with a name and description (if available) of the selected obstacle. 
+- Yellow triangle marks on the map show the location of the obstacles and by clicking on it, you are presented with a name and description (if available) of the selected obstacle.
 
 ### Track User Location
 
@@ -56,14 +59,13 @@ To see all the features in action, you can check the tutorial video by clicking 
 4. Second, please enter a detailed description of this obstacle for us in order to better understand the obstacle when checking the report.
 5. Lastly, click on the "Take Picture" button and the app will open up a camera. Please take a good photo of the obstacle for us and other users of the app to understand it better.
 6. After successfully adding a title, description and a photo (all three required) click on an "Add" button to submit it.
-*If you would like to cancel anytime during this process, please click the "Cancel" button and the app will take you back to the map. 
-
+   \*If you would like to cancel anytime during this process, please click the "Cancel" button and the app will take you back to the map.
 
 ## Current Limitations and Future Enhancements
 
-- The app currently doesn't offer users to see the obstacle on a picture but just with a mark. We are going to add this in the future updates. 
+- The app currently doesn't offer users to see the obstacle on a picture but just with a mark. We are going to add this in the future updates.
 - Offline maps: The app currently works only with a reliable internet connection. This is one of things that is due to change in the future.
-- Markings for obstacles are only available in selected regions at the moment. We are adding new regions as the time goes by. 
+- Markings for obstacles are only available in selected regions at the moment. We are adding new regions as the time goes by.
 - Directions: Step by step directions are not yet implemented in the app, you can only see the route on the map. This is also due to change soon.
 
 Have questions or suggestions? Let us know and enjoy exploring with Paramaps!
